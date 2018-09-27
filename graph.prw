@@ -90,7 +90,7 @@ Method AddNewVertex( aNewVertex , aNewEdges ) Class GraphEuller
 	Default aNewEdges := {}
 
 	//Adiciona os novos Vertices
-	For nVertex := 1 To Len( nVertex )
+	For nVertex := 1 To Len( aNewVertex )
 		Self:AddVertex( aNewVertex[ nVertex ] )
 	Next nVertex
 
